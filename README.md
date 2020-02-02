@@ -1,2 +1,2 @@
-# Subrotica
-Erotic, soviet, lovecraftian, submarine-themed student VR experience made for IAT340. Uses Unity Engine + Oculus plugin.
+# Acheron 6
+Submarine-themed student VR experience made for IAT340. Uses Unity Engine + Oculus plugin.
