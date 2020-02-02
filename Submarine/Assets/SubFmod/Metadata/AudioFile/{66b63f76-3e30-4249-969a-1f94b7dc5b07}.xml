@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{66b63f76-3e30-4249-969a-1f94b7dc5b07}">
+		<property name="assetPath">
+			<value>ComputerFanIsolated.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.7556666666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b8846c50-76ec-4571-abbc-4d64c185a916}</destination>
+		</relationship>
+	</object>
+</objects>

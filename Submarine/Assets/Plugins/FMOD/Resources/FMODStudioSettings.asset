@@ -15,10 +15,10 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets\SubFmod\SubFmod.fspro
+  sourceProjectPath: Assets/SubFmod/SubFmod.fspro
   sourceBankPath: Assets\SubFmod\Build
   SourceBankPathUnformatted: 
-  AutomaticEventLoading: 1
+  AutomaticEventLoading: 0
   BankLoadType: 0
   AutomaticSampleLoading: 0
   EncryptionKey: 
@@ -75,9 +75,14 @@ MonoBehaviour:
     Value: 32
   - Platform: 20
     Value: 32
-  Plugins: []
+  Plugins:
+  - OculusSpatializerFMOD
   MasterBanks:
   - Master
-  Banks: []
-  BanksToLoad: []
+  Banks:
+  - Music
+  - SFX
+  - Test
+  BanksToLoad:
+  - 
   LiveUpdatePort: 9264

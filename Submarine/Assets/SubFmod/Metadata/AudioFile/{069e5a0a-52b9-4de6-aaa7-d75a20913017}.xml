@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{069e5a0a-52b9-4de6-aaa7-d75a20913017}">
+		<property name="assetPath">
+			<value>MetalBang1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.284875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b8846c50-76ec-4571-abbc-4d64c185a916}</destination>
+		</relationship>
+	</object>
+</objects>

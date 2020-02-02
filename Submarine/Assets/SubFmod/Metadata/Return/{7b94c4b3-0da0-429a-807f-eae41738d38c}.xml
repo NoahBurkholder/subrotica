@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="MixerReturn" id="{7b94c4b3-0da0-429a-807f-eae41738d38c}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
 		<property name="overridingInputFormat">
 			<value>2</value>
 		</property>
@@ -22,14 +25,29 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{c8ee89b1-a77e-4fa5-bc35-b90702b5c5a7}">
 		<relationship name="effects">
-			<destination>{6bf68140-1aa1-48ac-bcbf-c98c373c5be0}</destination>
+			<destination>{7143996d-4546-4d1d-9182-9990ea68bede}</destination>
 			<destination>{e851dd86-7ba4-4004-a86f-fd50136b383d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6ab13102-6b9b-4099-9ca1-a35c83c875d3}" />
-	<object class="SFXReverbEffect" id="{6bf68140-1aa1-48ac-bcbf-c98c373c5be0}">
-		<property name="wetLevel">
-			<value>0</value>
+	<object class="SFXReverbEffect" id="{7143996d-4546-4d1d-9182-9990ea68bede}">
+		<property name="decayTime">
+			<value>4000</value>
+		</property>
+		<property name="earlyDelay">
+			<value>8</value>
+		</property>
+		<property name="lateDelay">
+			<value>20</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>12</value>
+		</property>
+		<property name="highCut">
+			<value>700</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>100</value>
 		</property>
 		<property name="dryLevel">
 			<value>-80</value>

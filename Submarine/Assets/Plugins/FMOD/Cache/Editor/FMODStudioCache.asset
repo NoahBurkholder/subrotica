@@ -1,5 +1,136 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6491870007216983159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Test.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/SubFmod/Build/Desktop/Test.bank
+  SubDir: 
+  lastModified: 637161777387607817
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-5731838663619734543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/SubFmod/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637161596514825102
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3857972212242137394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/SubFmod/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637161777387388410
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-3347651542247080536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/SubFmod/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637161777387378428
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1919860067639625444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/SubFmod/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637161596514067138
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1165483337552135048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/SubFmod/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637161777387348508
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-129459827989595653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3DTest
+  m_EditorClassIdentifier: 
+  Path: event:/3DTest
+  guid: 857dcbfe96ad464e99a2a6ed30b39fe4
+  Banks:
+  - {fileID: -6491870007216983159}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1200
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14,14 +145,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 915859252441493687}
-  - {fileID: 5326173728668007138}
-  EditorEvents: []
+  - {fileID: -1165483337552135048}
+  - {fileID: -3347651542247080536}
+  - {fileID: -3857972212242137394}
+  - {fileID: -6491870007216983159}
+  EditorEvents:
+  - {fileID: -129459827989595653}
+  - {fileID: 2529111987766728708}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5326173728668007138}
+  - {fileID: -1165483337552135048}
   StringsBanks:
   - {fileID: 915859252441493687}
-  stringsBankWriteTime: 637160847519365804
+  stringsBankWriteTime: 637161777387358477
   cacheVersion: 3
 --- !u!114 &915859252441493687
 MonoBehaviour:
@@ -37,12 +173,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/SubFmod/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637160847519365804
+  lastModified: 637161777387358477
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 688
+    Value: 948
   Exists: 1
+--- !u!114 &2529111987766728708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SubmarineRoom
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SubmarineRoom
+  guid: 9583a95934189d448e5f789a7295605e
+  Banks:
+  - {fileID: -1165483337552135048}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &5326173728668007138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,4 +219,4 @@ MonoBehaviour:
   lastModified: 637160847519345865
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
